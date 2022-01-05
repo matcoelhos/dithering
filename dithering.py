@@ -4,7 +4,7 @@ img = cv2.imread('pp.jpg',0)
 
 width, height = img.shape
 
-reducefactor = 3
+reducefactor = 2
 
 img = cv2.resize(img,(round(height/reducefactor),round(width/reducefactor)))
 
