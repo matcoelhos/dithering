@@ -1,6 +1,6 @@
 import cv2
 
-img = cv2.imread('pp.jpeg',0)
+img = cv2.imread('pp.jpg',0)
 
 width, height = img.shape
 
